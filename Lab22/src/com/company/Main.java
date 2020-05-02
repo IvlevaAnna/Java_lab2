@@ -71,7 +71,6 @@ public class Main {
                     ),
             };
 
-            //getTriangle(shapes);
             System.out.println("shape with max area - " + getShapeByMaxArea(shapes).toString());
         } catch (IllegalArgumentException iae) {
             iae.printStackTrace();
@@ -106,12 +105,7 @@ public class Main {
         }
         return shapeWithMaxArea;
     }
-//    public static void  getTriangle(Shape[] shapes) {
-//        for (Shape shape : shapes) {
-//            if (shape instanceof Triangle)
-//                System.out.println(shape.toString());
-//        }
-//    }
+
 }
 
 
